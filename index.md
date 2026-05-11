@@ -10,8 +10,8 @@ layout: page
 [2026年第1期 在线全刊阅览](/2026-issue1/)
 
 ## 栏目导航
-- [每期刊物展示](/issue-list/)
-- [会员作品展示](/members/)
+- [每期刊物展示](issue-list/)
+- [会员作品展示](members/)
 - [会员新书展示](/book-list/)
 - [社团活动展示](/activity-list/)
 - [期刊简介 & 编委会](/about/)
