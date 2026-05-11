@@ -1,11 +1,12 @@
----
-title: 会员作品展示
-layout: page
-permalink: /members/
----
-
-# 会员诗人作品专栏
-每位会员独立页面，含个人照片、简介、代表诗作、发表记录。
-
-## 会员名录
-- [会员姓名](members/luiming/)
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>会员作品展示</title>
+</head>
+<body>
+    <h1>会员作品展示</h1>
+    <p>这里可以放你的会员作品内容</p>
+    <p><a href="/">← 返回首页</a></p>
+</body>
+</html>
