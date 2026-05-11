@@ -11,7 +11,7 @@ layout: page
 
 ## 栏目导航
 - [每期刊物展示](pages/issue-list.md)
-- [会员作品展示](pages/member-list.md)
+- [会员作品展示](/members/)
 - [会员新出书展示](pages/book-list.md)
 - [社团活动展示](pages/activity-list.md)
 - [期刊简介 & 编委会](pages/about.md)
