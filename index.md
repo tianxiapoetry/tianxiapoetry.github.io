@@ -2,7 +2,7 @@
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
-    <title>《天下诗歌》官方网站</title>
+    <title>《天下诗歌》tianxiapoetry官方网站</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
         body {
