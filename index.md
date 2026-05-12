@@ -140,7 +140,7 @@
     <h2>会员作品展示</h2>
     <div class="card-container">
         <div class="card">
-            <h3>张明 · 《山河远阔》</h3>
+            <h3>罗敏 · 《残月》</h3>
             <p>以细腻笔触描绘祖国山河，情感真挚，意境深远。</p >
         </div>
         <div class="card">
