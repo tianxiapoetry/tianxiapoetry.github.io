@@ -2,7 +2,7 @@
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
-    <title>《XX期刊》官方网站</title>
+    <title>《天下诗歌》官方网站</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
         body {
@@ -100,7 +100,7 @@
 <body>
 
 <header>
-    <h1>《XX期刊》</h1>
+    <h1>《天下诗歌》</h1>
     <p>传承文化 · 汇聚思想 · 展现风采</p >
 </header>
 
