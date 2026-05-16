@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>GitHub 文件上传</title>
+</head>
+<body>
+  <h2>上传文件到 GitHub</h2>
+
+  <input type="file" id="fileInput" />
+  <br><br>
+  <button onclick="uploadFile()">上传</button>
+
+  <p id="status"></p>
+
+  <script>
+    async function uploadFile() {
+      const fileInput = document.getElementById('fileInput');
+      const status = document.getElementById('status');
+
+      if (!fileInput.files.length) {
+        alert("请选择一个文件");
+        return;
+      }
+
+      const file = fileInput.files[0];
+      const reader = new FileReader();
+
+      reader.onload = async function () {
+        const content = btoa(reader.result); // Base64 编码
+
+        const url = "https://api.github.com/repos/YOUR_USERNAME/YOUR_REPO/contents/" + file.name;
+
+        const data = {
+          message: "Upload file via HTML",
+          content: content,
+          branch: "YOUR_BRANCH"
+        };
+
+        const response = await fetch(url, {
+          method: "PUT",
+          headers: {
+            "Authorization": "token YOUR_TOKEN",
+            "Content-Type": "application/json"
+          },
+          body: JSON.stringify(data)
+        });
+
+        const result = await response.json();
+
+        if (response.ok) {
+          status.innerText = "✅ 上传成功：" + file.name;
+        } else {
+          status.innerText = "❌ 上传失败：" + result.message;
+        }
+      };
+
+      reader.readAsBinaryString(file);
+    }
+  </script>
+</body>
+</html>
